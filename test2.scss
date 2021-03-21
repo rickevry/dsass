@@ -1,0 +1,34 @@
+
+// This is a comment
+
+/* This comment is
+ * more than one line long
+ * since it uses the CSS comment syntax,
+ * it will appear in the CSS output. */
+
+ // and one more
+
+ $base-color: #c6538c;
+ $border-dark: rgba($base-color, 0.88);
+
+ .test {
+    color: gree;
+}
+
+.test2 {
+    @extend .test;
+    color: blue;
+}
+
+.component 
+.nisse 
+div {
+    background-color: #443323;
+    opacity: 200;
+}
+
+div {
+    background-color:  $base-color222;
+    border: $border-dark;
+}
+
